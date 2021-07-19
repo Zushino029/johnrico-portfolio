@@ -504,7 +504,22 @@ box-shadow: 10px 10px 5px black;
      -khtml-box-shadow: 10px 10px 5px rgb(27, 25, 25);;
 }
 
-
+.fa-code {
+  font-size: 150px;
+  color: rgb(4, 160, 160);
+}
+.fa-tools {
+  font-size: 150px;
+  color: rgb(4, 160, 160);
+}
+.fa-comments {
+  font-size: 150px;
+  color: rgb(4, 160, 160);
+}
+.fa-laptop-code {
+  font-size: 150px;
+  color: rgb(4, 160, 160);
+}
 .project-container {
   margin-top: 100px;
   margin-left:20px;
