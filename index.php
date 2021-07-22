@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -223,7 +226,7 @@
 
 <h1 class="text-center">Get in Touch</h1>
 <div class="row">
-<div class="col-md-6 col-sm-6"><form action="">
+<div class="col-md-6 col-sm-6"><form action="contactform.php" method="POST">
 <input type="text" placeholder="Enter your Full Name:" id="user_name" required>
 <input type="text" placeholder="Enter your Email Address:" id="email_address"required>
 <textarea name="message" placeholder="Enter your Message..." id="message" required></textarea>
