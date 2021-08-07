@@ -18,6 +18,7 @@
     href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css"
     rel="stylesheet"
   />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
@@ -27,17 +28,17 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="./images/log.jpg" type="image/icon type">
+    <link rel="icon" href="./images/img1.png" type="image/icon type">
     <title>Rico │ Portfolio</title>
 </head>
 
 <body>
 
   <div class="item" data-aos="fade-down" data-aos-easing="linear"
-  data-aos-duration="1500" ><nav class="navbar navbar-expand-lg  navbar-light py-0 fixed-top ">
+  data-aos-duration="1500" ><nav class="navbar navbar-expand-lg  navbar-light py-4  ">
     <div class="container">
       <a href="index.html" class="navbar-brand"> Rico │ Portfolio </a>
-      <i class="fas fa-sun"></i>
+     
       <label class="switch" ><input type="checkbox">
         <span class="slider round"onclick="ChangeBG()"></span>
       </label>
@@ -66,7 +67,7 @@
             <a href="#project" class="nav-link">Work</a>
           </li>
           <li class="nav-item">
-            <a href="#contact" class="nav-link">Contact</a>
+            <a href="#contact" class="nav-link" id="cnthi">What's Up? </a>
           </li>
    
         </ul>
@@ -76,21 +77,13 @@
 
 <section class="home">
   <div data-aos="fade-up"
-     data-aos-duration="5000"><div class="home-container" id="home">
+     data-aos-duration="1000"><div class="home-container text-center" id="home">
        
     <br>
-    <h1><span> Hello,</span> I'm John Rico<span> Pugeda</span></h1>
-    <div class="mo-scroll">
-       
-        <div class="mouse">
-            <div class="wheel"></div>
-        </div>
-        <div>
-            <span class="m-scroll-arrows one"></span>
-            <span class="m-scroll-arrows two"></span>
-            <span class="m-scroll-arrows three"></span>
-        </div> </div>
-        
+    <h1>Computer Engineer & Full Stack Web Developer</h1>
+    <img src="./images/Developer activity.gif" alt="">
+    <p>I hope you can learn more about me</p>
+     <a href="">Download my Resume</a>   
 </div>
 
 </div>
@@ -108,16 +101,19 @@
   <div class="swtch">
  
 </div>
-                <div class="about-container">
-                 
+                <div class="about-container text-center">
+                  <div class="item" data-aos="fade-down" data-aos-easing="linear"
+                  data-aos-duration="1500" > <h1>Hello, I'm John Rico Pugeda. Let's be friends.</h1></div>
                      <div class="row ">
+                     
+                   <div class="col-md-4 col-sm-6"><img src="./images/Programming.gif"  height="100%" width="100%" alt=""></div>
 
-                  <div class="col-md-8 col-sm-2 text-center "> <h1><span>Fac</span>t's <span>about</span> m<span>e</span></h1>
+                  <div class="col-md-8 col-sm-2 text-center "> 
                     <div class="item" data-aos="fade-up" data-aos-easing="linear"
   data-aos-duration="1500" > <p>I finished my studies as a Computer Engineer. I started a start-up service business for Computer & Network Services. I also offer Personal and Business Websites and Home automation.</p>
        <p>Fact's about me. I'm so into travel, anime, movies, designing, <span>alcohol</span>, <span>fighting</span>, <span>relationship</span>, creating a website and machine learning.</p></div>
                   </div>
-                <div class="col-md-4 col-sm-6"><img src="./images/abg.jpeg"  height="55%" width="60%" alt=""></div>
+                 
 
 
 
@@ -132,16 +128,16 @@
       <div id="skills"></div>
               <div class="sk-design"> 
       <div class="row text-center">
-        <div class="col"><i class="fas fa-code"></i><p>I build Static & Dynamic website</p></div>
-          <div  class="col"><i class="fas fa-tools"></i><p>I can find and fix the problem </p></div>
-          <div  class="col"><i class="far fa-comments"></i><p>I'm a Team player with a good communication skills</p></div>
-          <div  class="col"><i class="fas fa-laptop-code"></i><p>I build a responsive website for mobile, tablet and desktop</p></div>
+        <div class="col"><i class="fas fa-code "></i><p>I build Static & Dynamic website</p></div>
+          <div  class="col"><i class="fas fa-tools "></i><p>I can find and fix the problem </p></div>
+          <div  class="col"><i class="fa fa-2x fa-animation fa-comments" aria-hidden="true"></i><p>I'm a Team player with a good communication skills</p></div>
+          <div  class="col"><i class="fas fa-laptop-code  "></i><p>I build a responsive website for mobile, tablet and desktop</p></div>
         </div>
       </div>
       <div class="skill-container " >
                
           <div class="row">
-        <div class="col-md-6 col-sm-6"><img src="./images/pgt.jpeg" alt="" height="750px" width="100%">
+        <div class="col-md-6 col-sm-6"><img src="./images/Developer activity.gif" alt="" height="80%" width="100%">
         </div>
      
         <div class="col-md-6 col-sm-6 ">
@@ -158,7 +154,9 @@
           
             <div class="skillse js">50%</div>
           
+            <p>BootStrap</p>
           
+            <div class="skillse bootstrap">90%</div>
           <p>PHP</p>
           
             <div class="skillse php">50%</div>
@@ -168,24 +166,8 @@
           
             <div class="skillse sql">50%</div>
           
-          <p>Arduino</p>
           
-            <div class="skillse ard">90%</div>
-          
-          <p>Raspberry Pi</p>
-          
-            <div class="skillse rasp">90%</div>
-          
-          <p>C++</p>
-          
-            <div class="skillse cplus">50% <span></span></div>
-            <p>Python</p>
-          
-            <div class="skillse phyton">40%</div>
-            
-            <p>BootStrap</p>
-          
-            <div class="skillse bootstrap">90%</div>
+           
       </div>
     </div>
   </div>
@@ -203,19 +185,19 @@
     data-aos-easing="ease-out-cubic"
     data-aos-duration="2000"><div class="pjt-container text-center">
    <div class="row">
-<div class="col-md-4 col-sm-6"><h1>Portfolio</h1><img src="./images/busin.png" alt="" height="75%" width="80%"></div>
+<div class="col-md-4 col-sm-6 "><h1>Portfolio</h1><img src="./images/busin.png"  alt="" height="85%" width="90%"></div>
 
-<div class="col-md-4 col-sm-6"><h1>Business Website</h1><a href="https://jmktechsolution.github.io/jmmK/" target="_blank"><img src="./images/busi.PNG" alt="" height="75%" width="80%"></a></div>
-<div class="col-md-4 col-sm-6"><h1>To-do-List</h1><a href="https://zushino029.github.io/todolist/" target="_blank"><img src="./images/snak.png" alt="" height="75%" width="80%"></a></div>
+<div class="col-md-4 col-sm-6 "><h1>Business Website</h1><img src="./images/busi.PNG" alt="" height="85%" width="90%"></div>
+<div class="col-md-4 col-sm-6"><h1>To-do-List</h1><img src="./images/snak.png" alt="" height="85%" width="90%"></div>
 </div>
 </div></div>
 <div data-aos="flip-right"
     data-aos-easing="ease-out-cubic"
     data-aos-duration="2000"><div class="pjt-container2 d-flex text-center">
   <div class="row">
-  <div class="col-md-4 col-sm-6"><h1>JavaScript Game</h1><a href="https://zushino029.github.io/Snake/" target="_blank"><img src="./images/tod.png" alt="" height="75%" width="80%"></a></div>
-  <div class="col-md-4 col-sm-6"><h1>Flex-box Project</h1><a href="https://zushino029.github.io/flex-project/index.html" target="_blank"><img src="./images/flex.png" alt="" height="75%" width="80%"></a></div>
-  <div class="col-md-4 col-sm-6"><h1>Milk Tea Website</h1><img src="./images/milk.png" alt="" height="75%" width="80%"></div>
+  <div class="col-md-4 col-sm-6"><h1>JavaScript Game</h1><img src="./images/tod.png"  alt="" height="85%" width="90%"></div>
+  <div class="col-md-4 col-sm-6"><h1>Flex-box Project</h1><img src="./images/flex.png" alt="" height="85%" width="90%"></div>
+  <div class="col-md-4 col-sm-6"><h1>Milk Tea Website</h1><img src="./images/milk.png" alt="" height="85%" width="90%"></div>
 </div>
 </div></div>
   
@@ -246,16 +228,22 @@
 
 </section>
 <footer>
-  <div class="foot">
+  <div class="foot text-center">
+    <br>
+    <h2>YourAverageDeveloper</h2>
+     <h4>Eat, Sleep, Code</h4>
+     <h5> Improving day by day with a cup of coffee.</h5>
    <a href="https://www.linkedin.com/in/john-rico-pugeda-52b28a213/" title="linkedin" target="_blank">
-     <i class="fa fa-linkedin-square "></i></a>
+     <i class="fa fa-linkedin "></i></a>
      <a href="https://www.facebook.com/johnrico.pugeda/" title="facebook" target="_blank">
-       <i class="fa fa-facebook-square "></i></a>
+       <i class="fa fa-facebook "></i></a>
       
          <a href="https://twitter.com/PugedaJohn" title="twitter" target="_blank">
-           <i class="fa fa-twitter-square "></i></a>
-           <a href="https://www.youtube.com/channel/UCjWyqdrr220oszCYaR-AaJg" title="twitter" target="_blank">
-            <i class="fa fa-youtube-square "></i></a>
+           <i class="fa fa-twitter "></i></a>
+           <a href="https://www.youtube.com/channel/UCjWyqdrr220oszCYaR-AaJg" title="youtube" target="_blank">
+            <i class="fa fa-youtube"></i></a>
+            <a href="https://www.youtube.com/channel/UCjWyqdrr220oszCYaR-AaJg" title="github" target="_blank">
+              <i class="fa fa-github"></i></a>
       <p>© Copyright 2021 All rights Reserved. Created by John Rico Pugeda</p>
      
       <br>
